@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "csm_afrikanischer-savannenelefant-suedafrika-WW267191-c-kinjal-vasavada_1338da7deb.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

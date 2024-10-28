@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F510C1542CCF8EEC00B9EAB0 /* KidsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */; };
+		F510C1582CCF8EED00B9EAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */; };
+		F510C15B2CCF8EED00B9EAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F510C15A2CCF8EED00B9EAB0 /* Preview Assets.xcassets */; };
+		F5D292512CCF8FCD0046EFDC /* ProfileInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292192CCF8FCD0046EFDC /* ProfileInputView.swift */; };
+		F5D292522CCF8FCD0046EFDC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921A2CCF8FCD0046EFDC /* SettingsView.swift */; };
+		F5D292532CCF8FCD0046EFDC /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921B2CCF8FCD0046EFDC /* UserListView.swift */; };
+		F5D292542CCF8FCD0046EFDC /* DinosaurDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921D2CCF8FCD0046EFDC /* DinosaurDetailView.swift */; };
+		F5D292552CCF8FCD0046EFDC /* DinosaurListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921E2CCF8FCD0046EFDC /* DinosaurListView.swift */; };
+		F5D292562CCF8FCD0046EFDC /* HorseDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292202CCF8FCD0046EFDC /* HorseDetailView.swift */; };
+		F5D292572CCF8FCD0046EFDC /* HorseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292212CCF8FCD0046EFDC /* HorseListView.swift */; };
+		F5D292582CCF8FCD0046EFDC /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292232CCF8FCD0046EFDC /* AnimalDetailView.swift */; };
+		F5D292592CCF8FCD0046EFDC /* LexikonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292252CCF8FCD0046EFDC /* LexikonView.swift */; };
+		F5D2925A2CCF8FCD0046EFDC /* MahteklassenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292272CCF8FCD0046EFDC /* MahteklassenView.swift */; };
+		F5D2925B2CCF8FCD0046EFDC /* MatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292282CCF8FCD0046EFDC /* MatheView.swift */; };
+		F5D2925C2CCF8FCD0046EFDC /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2922A2CCF8FCD0046EFDC /* WeatherView.swift */; };
+		F5D2925D2CCF8FCD0046EFDC /* AuswahlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2922C2CCF8FCD0046EFDC /* AuswahlView.swift */; };
+		F5D2925E2CCF8FCD0046EFDC /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2922D2CCF8FCD0046EFDC /* StartView.swift */; };
+		F5D2925F2CCF8FCD0046EFDC /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5D2922F2CCF8FCD0046EFDC /* Model.xcdatamodeld */; };
+		F5D292602CCF8FCD0046EFDC /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292302CCF8FCD0046EFDC /* PersistenceController.swift */; };
+		F5D292612CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F5D292312CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld */; };
+		F5D292622CCF8FCD0046EFDC /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292322CCF8FCD0046EFDC /* WeatherResponse.swift */; };
+		F5D292632CCF8FCD0046EFDC /* AnimalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292362CCF8FCD0046EFDC /* AnimalViewModel.swift */; };
+		F5D292642CCF8FCD0046EFDC /* DinosaurViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292372CCF8FCD0046EFDC /* DinosaurViewModel.swift */; };
+		F5D292652CCF8FCD0046EFDC /* HorseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */; };
+		F5D292662CCF8FCD0046EFDC /* MatheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */; };
+		F5D292672CCF8FCD0046EFDC /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */; };
+		F5D292692CCF8FCD0046EFDC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292402CCF8FCD0046EFDC /* Color.swift */; };
+		F5D2926A2CCF8FCD0046EFDC /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292412CCF8FCD0046EFDC /* SoundManager.swift */; };
+		F5D2926D2CCF8FCD0046EFDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292462CCF8FCD0046EFDC /* ContentView.swift */; };
+		F5D2926E2CCF8FCD0046EFDC /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292472CCF8FCD0046EFDC /* Animal.swift */; };
+		F5D2926F2CCF8FCD0046EFDC /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292482CCF8FCD0046EFDC /* Dinosaur.swift */; };
+		F5D292702CCF8FCD0046EFDC /* Horse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292492CCF8FCD0046EFDC /* Horse.swift */; };
+		F5D292712CCF8FCD0046EFDC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2924B2CCF8FCD0046EFDC /* Question.swift */; };
+		F5D292722CCF8FCD0046EFDC /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2924D2CCF8FCD0046EFDC /* Weather.swift */; };
+		F5D292732CCF8FCD0046EFDC /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2924E2CCF8FCD0046EFDC /* WeatherService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F510C1502CCF8EEC00B9EAB0 /* KidsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsAppApp.swift; sourceTree = "<group>"; };
+		F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F510C15A2CCF8EED00B9EAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5D292192CCF8FCD0046EFDC /* ProfileInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInputView.swift; sourceTree = "<group>"; };
+		F5D2921A2CCF8FCD0046EFDC /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F5D2921B2CCF8FCD0046EFDC /* UserListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		F5D2921D2CCF8FCD0046EFDC /* DinosaurDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurDetailView.swift; sourceTree = "<group>"; };
+		F5D2921E2CCF8FCD0046EFDC /* DinosaurListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurListView.swift; sourceTree = "<group>"; };
+		F5D292202CCF8FCD0046EFDC /* HorseDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorseDetailView.swift; sourceTree = "<group>"; };
+		F5D292212CCF8FCD0046EFDC /* HorseListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorseListView.swift; sourceTree = "<group>"; };
+		F5D292232CCF8FCD0046EFDC /* AnimalDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		F5D292252CCF8FCD0046EFDC /* LexikonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexikonView.swift; sourceTree = "<group>"; };
+		F5D292272CCF8FCD0046EFDC /* MahteklassenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MahteklassenView.swift; sourceTree = "<group>"; };
+		F5D292282CCF8FCD0046EFDC /* MatheView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatheView.swift; sourceTree = "<group>"; };
+		F5D2922A2CCF8FCD0046EFDC /* WeatherView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		F5D2922C2CCF8FCD0046EFDC /* AuswahlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuswahlView.swift; sourceTree = "<group>"; };
+		F5D2922D2CCF8FCD0046EFDC /* StartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		F5D292302CCF8FCD0046EFDC /* PersistenceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		F5D292322CCF8FCD0046EFDC /* WeatherResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
+		F5D292342CCF8FCD0046EFDC /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F5D292352CCF8FCD0046EFDC /* ScoreModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScoreModel.xcdatamodel; sourceTree = "<group>"; };
+		F5D292362CCF8FCD0046EFDC /* AnimalViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimalViewModel.swift; sourceTree = "<group>"; };
+		F5D292372CCF8FCD0046EFDC /* DinosaurViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DinosaurViewModel.swift; sourceTree = "<group>"; };
+		F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorseViewModel.swift; sourceTree = "<group>"; };
+		F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatheViewModel.swift; sourceTree = "<group>"; };
+		F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		F5D292402CCF8FCD0046EFDC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = KidsApp/Color.swift; sourceTree = SOURCE_ROOT; };
+		F5D292412CCF8FCD0046EFDC /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		F5D292462CCF8FCD0046EFDC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = KidsApp/ContentView.swift; sourceTree = SOURCE_ROOT; };
+		F5D292472CCF8FCD0046EFDC /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		F5D292482CCF8FCD0046EFDC /* Dinosaur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
+		F5D292492CCF8FCD0046EFDC /* Horse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Horse.swift; sourceTree = "<group>"; };
+		F5D2924B2CCF8FCD0046EFDC /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F5D2924D2CCF8FCD0046EFDC /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		F5D2924E2CCF8FCD0046EFDC /* WeatherService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F510C14D2CCF8EEC00B9EAB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F510C1472CCF8EEC00B9EAB0 = {
+			isa = PBXGroup;
+			children = (
+				F510C1522CCF8EEC00B9EAB0 /* KidsApp */,
+				F510C1512CCF8EEC00B9EAB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F510C1512CCF8EEC00B9EAB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F510C1502CCF8EEC00B9EAB0 /* KidsApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F510C1522CCF8EEC00B9EAB0 /* KidsApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292332CCF8FCD0046EFDC /* CoreData */,
+				F5D292502CCF8FCD0046EFDC /* Model */,
+				F5D2922E2CCF8FCD0046EFDC /* View */,
+				F5D2923F2CCF8FCD0046EFDC /* ViewModel */,
+				F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */,
+				F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */,
+				F5D292402CCF8FCD0046EFDC /* Color.swift */,
+				F5D292462CCF8FCD0046EFDC /* ContentView.swift */,
+				F5D292422CCF8FCD0046EFDC /* Sound */,
+				F510C1592CCF8EED00B9EAB0 /* Preview Content */,
+			);
+			path = KidsApp;
+			sourceTree = "<group>";
+		};
+		F510C1592CCF8EED00B9EAB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F510C15A2CCF8EED00B9EAB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5D2921C2CCF8FCD0046EFDC /* Einstellungen */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292192CCF8FCD0046EFDC /* ProfileInputView.swift */,
+				F5D2921A2CCF8FCD0046EFDC /* SettingsView.swift */,
+				F5D2921B2CCF8FCD0046EFDC /* UserListView.swift */,
+			);
+			path = Einstellungen;
+			sourceTree = "<group>";
+		};
+		F5D2921F2CCF8FCD0046EFDC /* Dino */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2921D2CCF8FCD0046EFDC /* DinosaurDetailView.swift */,
+				F5D2921E2CCF8FCD0046EFDC /* DinosaurListView.swift */,
+			);
+			path = Dino;
+			sourceTree = "<group>";
+		};
+		F5D292222CCF8FCD0046EFDC /* Horse */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292202CCF8FCD0046EFDC /* HorseDetailView.swift */,
+				F5D292212CCF8FCD0046EFDC /* HorseListView.swift */,
+			);
+			path = Horse;
+			sourceTree = "<group>";
+		};
+		F5D292242CCF8FCD0046EFDC /* Tiere */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292232CCF8FCD0046EFDC /* AnimalDetailView.swift */,
+			);
+			path = Tiere;
+			sourceTree = "<group>";
+		};
+		F5D292262CCF8FCD0046EFDC /* Lexikon */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2921F2CCF8FCD0046EFDC /* Dino */,
+				F5D292222CCF8FCD0046EFDC /* Horse */,
+				F5D292242CCF8FCD0046EFDC /* Tiere */,
+				F5D292252CCF8FCD0046EFDC /* LexikonView.swift */,
+			);
+			path = Lexikon;
+			sourceTree = "<group>";
+		};
+		F5D292292CCF8FCD0046EFDC /* Mathe */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292272CCF8FCD0046EFDC /* MahteklassenView.swift */,
+				F5D292282CCF8FCD0046EFDC /* MatheView.swift */,
+			);
+			path = Mathe;
+			sourceTree = "<group>";
+		};
+		F5D2922B2CCF8FCD0046EFDC /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2922A2CCF8FCD0046EFDC /* WeatherView.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F5D2922E2CCF8FCD0046EFDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2921C2CCF8FCD0046EFDC /* Einstellungen */,
+				F5D292262CCF8FCD0046EFDC /* Lexikon */,
+				F5D292292CCF8FCD0046EFDC /* Mathe */,
+				F5D2922B2CCF8FCD0046EFDC /* Weather */,
+				F5D2922C2CCF8FCD0046EFDC /* AuswahlView.swift */,
+				F5D2922D2CCF8FCD0046EFDC /* StartView.swift */,
+			);
+			name = View;
+			path = KidsApp/View;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5D292332CCF8FCD0046EFDC /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2922F2CCF8FCD0046EFDC /* Model.xcdatamodeld */,
+				F5D292302CCF8FCD0046EFDC /* PersistenceController.swift */,
+				F5D292312CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld */,
+				F5D292322CCF8FCD0046EFDC /* WeatherResponse.swift */,
+			);
+			name = CoreData;
+			path = KidsApp/CoreData;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5D292392CCF8FCD0046EFDC /* Lexikon */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292362CCF8FCD0046EFDC /* AnimalViewModel.swift */,
+				F5D292372CCF8FCD0046EFDC /* DinosaurViewModel.swift */,
+				F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */,
+			);
+			path = Lexikon;
+			sourceTree = "<group>";
+		};
+		F5D2923B2CCF8FCD0046EFDC /* Mathe */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */,
+			);
+			path = Mathe;
+			sourceTree = "<group>";
+		};
+		F5D2923D2CCF8FCD0046EFDC /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F5D2923F2CCF8FCD0046EFDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292392CCF8FCD0046EFDC /* Lexikon */,
+				F5D2923B2CCF8FCD0046EFDC /* Mathe */,
+				F5D2923D2CCF8FCD0046EFDC /* Weather */,
+			);
+			name = ViewModel;
+			path = KidsApp/ViewModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5D292422CCF8FCD0046EFDC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292412CCF8FCD0046EFDC /* SoundManager.swift */,
+			);
+			name = Sound;
+			path = KidsApp/Sound;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5D2924A2CCF8FCD0046EFDC /* Lexikon */ = {
+			isa = PBXGroup;
+			children = (
+				F5D292472CCF8FCD0046EFDC /* Animal.swift */,
+				F5D292482CCF8FCD0046EFDC /* Dinosaur.swift */,
+				F5D292492CCF8FCD0046EFDC /* Horse.swift */,
+			);
+			path = Lexikon;
+			sourceTree = "<group>";
+		};
+		F5D2924C2CCF8FCD0046EFDC /* Mathe */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2924B2CCF8FCD0046EFDC /* Question.swift */,
+			);
+			path = Mathe;
+			sourceTree = "<group>";
+		};
+		F5D2924F2CCF8FCD0046EFDC /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2924D2CCF8FCD0046EFDC /* Weather.swift */,
+				F5D2924E2CCF8FCD0046EFDC /* WeatherService.swift */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F5D292502CCF8FCD0046EFDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5D2924A2CCF8FCD0046EFDC /* Lexikon */,
+				F5D2924C2CCF8FCD0046EFDC /* Mathe */,
+				F5D2924F2CCF8FCD0046EFDC /* Weather */,
+			);
+			name = Model;
+			path = KidsApp/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F510C14F2CCF8EEC00B9EAB0 /* KidsApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F510C15E2CCF8EED00B9EAB0 /* Build configuration list for PBXNativeTarget "KidsApp" */;
+			buildPhases = (
+				F510C14C2CCF8EEC00B9EAB0 /* Sources */,
+				F510C14D2CCF8EEC00B9EAB0 /* Frameworks */,
+				F510C14E2CCF8EEC00B9EAB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsApp;
+			productName = KidsApp;
+			productReference = F510C1502CCF8EEC00B9EAB0 /* KidsApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F510C1482CCF8EEC00B9EAB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F510C14F2CCF8EEC00B9EAB0 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = F510C14B2CCF8EEC00B9EAB0 /* Build configuration list for PBXProject "KidsApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F510C1472CCF8EEC00B9EAB0;
+			productRefGroup = F510C1512CCF8EEC00B9EAB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F510C14F2CCF8EEC00B9EAB0 /* KidsApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F510C14E2CCF8EEC00B9EAB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F510C15B2CCF8EED00B9EAB0 /* Preview Assets.xcassets in Resources */,
+				F510C1582CCF8EED00B9EAB0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F510C14C2CCF8EEC00B9EAB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D292572CCF8FCD0046EFDC /* HorseListView.swift in Sources */,
+				F5D292532CCF8FCD0046EFDC /* UserListView.swift in Sources */,
+				F5D292712CCF8FCD0046EFDC /* Question.swift in Sources */,
+				F5D2925E2CCF8FCD0046EFDC /* StartView.swift in Sources */,
+				F5D292542CCF8FCD0046EFDC /* DinosaurDetailView.swift in Sources */,
+				F5D2926A2CCF8FCD0046EFDC /* SoundManager.swift in Sources */,
+				F5D292552CCF8FCD0046EFDC /* DinosaurListView.swift in Sources */,
+				F5D2925D2CCF8FCD0046EFDC /* AuswahlView.swift in Sources */,
+				F5D292612CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld in Sources */,
+				F5D2926E2CCF8FCD0046EFDC /* Animal.swift in Sources */,
+				F5D2925C2CCF8FCD0046EFDC /* WeatherView.swift in Sources */,
+				F5D2925F2CCF8FCD0046EFDC /* Model.xcdatamodeld in Sources */,
+				F5D292662CCF8FCD0046EFDC /* MatheViewModel.swift in Sources */,
+				F5D2926F2CCF8FCD0046EFDC /* Dinosaur.swift in Sources */,
+				F5D292602CCF8FCD0046EFDC /* PersistenceController.swift in Sources */,
+				F5D292622CCF8FCD0046EFDC /* WeatherResponse.swift in Sources */,
+				F5D292522CCF8FCD0046EFDC /* SettingsView.swift in Sources */,
+				F5D292512CCF8FCD0046EFDC /* ProfileInputView.swift in Sources */,
+				F510C1542CCF8EEC00B9EAB0 /* KidsAppApp.swift in Sources */,
+				F5D292692CCF8FCD0046EFDC /* Color.swift in Sources */,
+				F5D2925A2CCF8FCD0046EFDC /* MahteklassenView.swift in Sources */,
+				F5D292652CCF8FCD0046EFDC /* HorseViewModel.swift in Sources */,
+				F5D292562CCF8FCD0046EFDC /* HorseDetailView.swift in Sources */,
+				F5D292702CCF8FCD0046EFDC /* Horse.swift in Sources */,
+				F5D292642CCF8FCD0046EFDC /* DinosaurViewModel.swift in Sources */,
+				F5D292672CCF8FCD0046EFDC /* WeatherViewModel.swift in Sources */,
+				F5D292732CCF8FCD0046EFDC /* WeatherService.swift in Sources */,
+				F5D2925B2CCF8FCD0046EFDC /* MatheView.swift in Sources */,
+				F5D2926D2CCF8FCD0046EFDC /* ContentView.swift in Sources */,
+				F5D292582CCF8FCD0046EFDC /* AnimalDetailView.swift in Sources */,
+				F5D292592CCF8FCD0046EFDC /* LexikonView.swift in Sources */,
+				F5D292632CCF8FCD0046EFDC /* AnimalViewModel.swift in Sources */,
+				F5D292722CCF8FCD0046EFDC /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F510C15C2CCF8EED00B9EAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F510C15D2CCF8EED00B9EAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F510C15F2CCF8EED00B9EAB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jacqueline-syntax.KidsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F510C1602CCF8EED00B9EAB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KidsApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.jacqueline-syntax.KidsApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F510C14B2CCF8EEC00B9EAB0 /* Build configuration list for PBXProject "KidsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510C15C2CCF8EED00B9EAB0 /* Debug */,
+				F510C15D2CCF8EED00B9EAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F510C15E2CCF8EED00B9EAB0 /* Build configuration list for PBXNativeTarget "KidsApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F510C15F2CCF8EED00B9EAB0 /* Debug */,
+				F510C1602CCF8EED00B9EAB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F5D2922F2CCF8FCD0046EFDC /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5D292342CCF8FCD0046EFDC /* Model.xcdatamodel */,
+			);
+			currentVersion = F5D292342CCF8FCD0046EFDC /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = /Users/linchen1403/Desktop/Bilder/KidsApp/KidsApp/CoreData/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F5D292312CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F5D292352CCF8FCD0046EFDC /* ScoreModel.xcdatamodel */,
+			);
+			currentVersion = F5D292352CCF8FCD0046EFDC /* ScoreModel.xcdatamodel */;
+			name = ScoreModel.xcdatamodeld;
+			path = /Users/linchen1403/Desktop/Bilder/KidsApp/KidsApp/CoreData/ScoreModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F510C1482CCF8EEC00B9EAB0 /* Project object */;
+}
