@@ -10,6 +10,7 @@
 		F510C1542CCF8EEC00B9EAB0 /* KidsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */; };
 		F510C1582CCF8EED00B9EAB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */; };
 		F510C15B2CCF8EED00B9EAB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F510C15A2CCF8EED00B9EAB0 /* Preview Assets.xcassets */; };
+		F53B804A2CCFB37500843DB3 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F53B80492CCFB37500843DB3 /* Color.swift */; };
 		F5D292512CCF8FCD0046EFDC /* ProfileInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292192CCF8FCD0046EFDC /* ProfileInputView.swift */; };
 		F5D292522CCF8FCD0046EFDC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921A2CCF8FCD0046EFDC /* SettingsView.swift */; };
 		F5D292532CCF8FCD0046EFDC /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2921B2CCF8FCD0046EFDC /* UserListView.swift */; };
@@ -33,7 +34,6 @@
 		F5D292652CCF8FCD0046EFDC /* HorseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */; };
 		F5D292662CCF8FCD0046EFDC /* MatheViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */; };
 		F5D292672CCF8FCD0046EFDC /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */; };
-		F5D292692CCF8FCD0046EFDC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292402CCF8FCD0046EFDC /* Color.swift */; };
 		F5D2926A2CCF8FCD0046EFDC /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292412CCF8FCD0046EFDC /* SoundManager.swift */; };
 		F5D2926D2CCF8FCD0046EFDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292462CCF8FCD0046EFDC /* ContentView.swift */; };
 		F5D2926E2CCF8FCD0046EFDC /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D292472CCF8FCD0046EFDC /* Animal.swift */; };
@@ -49,6 +49,7 @@
 		F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsAppApp.swift; sourceTree = "<group>"; };
 		F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F510C15A2CCF8EED00B9EAB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F53B80492CCFB37500843DB3 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		F5D292192CCF8FCD0046EFDC /* ProfileInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileInputView.swift; sourceTree = "<group>"; };
 		F5D2921A2CCF8FCD0046EFDC /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F5D2921B2CCF8FCD0046EFDC /* UserListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
@@ -72,7 +73,6 @@
 		F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorseViewModel.swift; sourceTree = "<group>"; };
 		F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatheViewModel.swift; sourceTree = "<group>"; };
 		F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		F5D292402CCF8FCD0046EFDC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = SOURCE_ROOT; };
 		F5D292412CCF8FCD0046EFDC /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		F5D292462CCF8FCD0046EFDC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = KidsApp/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		F5D292472CCF8FCD0046EFDC /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -98,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				F510C1522CCF8EEC00B9EAB0 /* KidsApp */,
-				F5D292402CCF8FCD0046EFDC /* Color.swift */,
 				F510C1512CCF8EEC00B9EAB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,6 +113,7 @@
 		F510C1522CCF8EEC00B9EAB0 /* KidsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F53B80492CCFB37500843DB3 /* Color.swift */,
 				F5D292422CCF8FCD0046EFDC /* Sound */,
 				F5D292332CCF8FCD0046EFDC /* CoreData */,
 				F5D2922E2CCF8FCD0046EFDC /* View */,
@@ -381,6 +381,7 @@
 			files = (
 				F5D292572CCF8FCD0046EFDC /* HorseListView.swift in Sources */,
 				F5D292532CCF8FCD0046EFDC /* UserListView.swift in Sources */,
+				F53B804A2CCFB37500843DB3 /* Color.swift in Sources */,
 				F5D292712CCF8FCD0046EFDC /* Question.swift in Sources */,
 				F5D2925E2CCF8FCD0046EFDC /* StartView.swift in Sources */,
 				F5D292542CCF8FCD0046EFDC /* DinosaurDetailView.swift in Sources */,
@@ -398,7 +399,6 @@
 				F5D292522CCF8FCD0046EFDC /* SettingsView.swift in Sources */,
 				F5D292512CCF8FCD0046EFDC /* ProfileInputView.swift in Sources */,
 				F510C1542CCF8EEC00B9EAB0 /* KidsAppApp.swift in Sources */,
-				F5D292692CCF8FCD0046EFDC /* Color.swift in Sources */,
 				F5D2925A2CCF8FCD0046EFDC /* MahteklassenView.swift in Sources */,
 				F5D292652CCF8FCD0046EFDC /* HorseViewModel.swift in Sources */,
 				F5D292562CCF8FCD0046EFDC /* HorseDetailView.swift in Sources */,

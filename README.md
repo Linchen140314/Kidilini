@@ -109,6 +109,3 @@ Wenn du Fragen oder Anregungen hast, kannst du mich hier erreichen:
 
 ---
 
-## 🛠 Werkzeuge
-![My Skills](https://go-skill-icons.vercel.app/api/icons?i=html,css,ps,androidstudio,xcode,figma,mysql,lua,visualstudio,vscode,vue)
-
