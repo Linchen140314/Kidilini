@@ -10,6 +10,13 @@ import SwiftUI
 struct DinosaurListView: View {
     @ObservedObject var viewModel = DinosaurViewModel()
     
+    init() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground() // Durchsichtiger Hintergrund für die Navigations bar
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
         ZStack {
             // Hintergrundbild
@@ -36,7 +43,7 @@ struct DinosaurListView: View {
                 .listRowBackground(Color.clear) // Transparenter Hintergrund für die Listeneinträge
             }
             .listStyle(.plain)
-            .navigationTitle("Dino Lexikon")
+
         }
     }
 }

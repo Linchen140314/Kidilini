@@ -72,7 +72,7 @@
 		F5D292382CCF8FCD0046EFDC /* HorseViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorseViewModel.swift; sourceTree = "<group>"; };
 		F5D2923A2CCF8FCD0046EFDC /* MatheViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatheViewModel.swift; sourceTree = "<group>"; };
 		F5D2923C2CCF8FCD0046EFDC /* WeatherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		F5D292402CCF8FCD0046EFDC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Color.swift; path = KidsApp/Color.swift; sourceTree = SOURCE_ROOT; };
+		F5D292402CCF8FCD0046EFDC /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = SOURCE_ROOT; };
 		F5D292412CCF8FCD0046EFDC /* SoundManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 		F5D292462CCF8FCD0046EFDC /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = KidsApp/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		F5D292472CCF8FCD0046EFDC /* Animal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
@@ -98,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				F510C1522CCF8EEC00B9EAB0 /* KidsApp */,
+				F5D292402CCF8FCD0046EFDC /* Color.swift */,
 				F510C1512CCF8EEC00B9EAB0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,15 +114,14 @@
 		F510C1522CCF8EEC00B9EAB0 /* KidsApp */ = {
 			isa = PBXGroup;
 			children = (
+				F5D292422CCF8FCD0046EFDC /* Sound */,
 				F5D292332CCF8FCD0046EFDC /* CoreData */,
-				F5D292502CCF8FCD0046EFDC /* Model */,
 				F5D2922E2CCF8FCD0046EFDC /* View */,
 				F5D2923F2CCF8FCD0046EFDC /* ViewModel */,
+				F5D292502CCF8FCD0046EFDC /* Model */,
 				F510C1532CCF8EEC00B9EAB0 /* KidsAppApp.swift */,
-				F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */,
-				F5D292402CCF8FCD0046EFDC /* Color.swift */,
 				F5D292462CCF8FCD0046EFDC /* ContentView.swift */,
-				F5D292422CCF8FCD0046EFDC /* Sound */,
+				F510C1572CCF8EED00B9EAB0 /* Assets.xcassets */,
 				F510C1592CCF8EED00B9EAB0 /* Preview Content */,
 			);
 			path = KidsApp;
@@ -174,9 +174,9 @@
 		F5D292262CCF8FCD0046EFDC /* Lexikon */ = {
 			isa = PBXGroup;
 			children = (
-				F5D2921F2CCF8FCD0046EFDC /* Dino */,
 				F5D292222CCF8FCD0046EFDC /* Horse */,
 				F5D292242CCF8FCD0046EFDC /* Tiere */,
+				F5D2921F2CCF8FCD0046EFDC /* Dino */,
 				F5D292252CCF8FCD0046EFDC /* LexikonView.swift */,
 			);
 			path = Lexikon;
@@ -202,12 +202,12 @@
 		F5D2922E2CCF8FCD0046EFDC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F5D2921C2CCF8FCD0046EFDC /* Einstellungen */,
+				F5D2922D2CCF8FCD0046EFDC /* StartView.swift */,
+				F5D2922C2CCF8FCD0046EFDC /* AuswahlView.swift */,
 				F5D292262CCF8FCD0046EFDC /* Lexikon */,
+				F5D2921C2CCF8FCD0046EFDC /* Einstellungen */,
 				F5D292292CCF8FCD0046EFDC /* Mathe */,
 				F5D2922B2CCF8FCD0046EFDC /* Weather */,
-				F5D2922C2CCF8FCD0046EFDC /* AuswahlView.swift */,
-				F5D2922D2CCF8FCD0046EFDC /* StartView.swift */,
 			);
 			name = View;
 			path = KidsApp/View;
@@ -216,8 +216,8 @@
 		F5D292332CCF8FCD0046EFDC /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				F5D2922F2CCF8FCD0046EFDC /* Model.xcdatamodeld */,
 				F5D292302CCF8FCD0046EFDC /* PersistenceController.swift */,
+				F5D2922F2CCF8FCD0046EFDC /* Model.xcdatamodeld */,
 				F5D292312CCF8FCD0046EFDC /* ScoreModel.xcdatamodeld */,
 				F5D292322CCF8FCD0046EFDC /* WeatherResponse.swift */,
 			);

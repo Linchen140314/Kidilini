@@ -10,6 +10,13 @@ import SwiftUI
 struct HorseListView: View {
     @ObservedObject var viewModel = HorseViewModel()
     
+    init() {
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithTransparentBackground() // Durchsichtiger Hintergrund für die Navigations bar
+        UINavigationBar.appearance().standardAppearance = appearance
+        UINavigationBar.appearance().scrollEdgeAppearance = appearance
+    }
+    
     var body: some View {
         ZStack {
             // Hintergrundbild

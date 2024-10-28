@@ -12,11 +12,13 @@ struct SettingsView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @FetchRequest(entity: User.entity(), sortDescriptors: [])
     var users: FetchedResults<User>
+    
+    @State private var newName: String = ""
 
     var body: some View {
         ZStack {
-            // Hintergrundbild hinzufügen
-            Image("hintergrund") // Ersetze "hintergrundbild" durch den Namen deines Bildes
+            // Hintergrundbild
+            Image("hintergrund")
                 .resizable()
                 .scaledToFill()
                 .ignoresSafeArea()
@@ -24,10 +26,30 @@ struct SettingsView: View {
             VStack {
                 Text("Einstellungen")
                     .font(.largeTitle)
-                    .foregroundColor(.black) // Schriftfarbe für bessere Lesbarkeit
+                    .foregroundColor(.black)
                     .padding()
-                    .background(Color.gelb.opacity(1)) // Hintergrund für besseren Kontrast
+                    .background(Color.gelb.opacity(1))
                     .cornerRadius(10)
+
+                // Name ändern Textfeld
+                if let user = users.first {
+                    TextField("Neuer Name", text: $newName)
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                        .padding()
+                    
+                    Button(action: {
+                        updateUserName(user)
+                    }) {
+                        Text("Namen ändern")
+                            .font(.headline)
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(Color.turquoise)
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                    }
+                    .padding()
+                }
 
                 // Profil löschen Button
                 Button(action: {
@@ -46,6 +68,17 @@ struct SettingsView: View {
                 // Hier kannst du weitere Einstellungen hinzufügen
             }
             .padding()
+        }
+    }
+
+    private func updateUserName(_ user: User) {
+        user.name = newName
+
+        do {
+            try viewContext.save()
+            newName = "" // Textfeld zurücksetzen
+        } catch {
+            print("Fehler beim Aktualisieren des Namens: \(error.localizedDescription)")
         }
     }
 

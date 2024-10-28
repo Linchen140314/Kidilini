@@ -16,7 +16,7 @@ class WeatherViewModel: ObservableObject {
     
     private let weatherService = WeatherService()
     
-    func fetchWeather(for city: String) {
+    func fetchWeather(for city: String, completion: (() -> Void)? = nil) {
         weatherService.fetchWeather(for: city) { response in
             if let response = response {
                 self.temperature = "\(Int(response.main.temp))°C"
@@ -25,6 +25,8 @@ class WeatherViewModel: ObservableObject {
             } else {
                 print("Keine Wetterdaten verfügbar.")
             }
+            // Rufe den Abschluss-Handler auf, wenn einer vorhanden ist
+            completion?()
         }
     }
     
